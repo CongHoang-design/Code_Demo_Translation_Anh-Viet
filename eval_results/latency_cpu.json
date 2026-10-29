@@ -1,0 +1,37 @@
+{
+  "device": "cpu",
+  "gpu": null,
+  "torch": "2.14.1+cu132",
+  "checkpoint": "weights\\tmodel_04.pt",
+  "decoding": "greedy (không dùng KV cache), batch = 1, mô hình đã nạp sẵn",
+  "num_sentences": 60,
+  "all": {
+    "n": 60,
+    "mean_s": 0.205,
+    "median_s": 0.159,
+    "p95_s": 0.653,
+    "max_s": 1.093
+  },
+  "tokens_1_10": {
+    "n": 11,
+    "mean_s": 0.089,
+    "median_s": 0.057,
+    "p95_s": 0.395,
+    "max_s": 0.395
+  },
+  "tokens_11_30": {
+    "n": 33,
+    "mean_s": 0.166,
+    "median_s": 0.116,
+    "p95_s": 0.653,
+    "max_s": 0.673
+  },
+  "tokens_31_50": {
+    "n": 16,
+    "mean_s": 0.365,
+    "median_s": 0.309,
+    "p95_s": 1.093,
+    "max_s": 1.093
+  },
+  "share_under_3s": 1.0
+}

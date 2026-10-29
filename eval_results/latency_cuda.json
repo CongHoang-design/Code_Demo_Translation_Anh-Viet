@@ -1,0 +1,37 @@
+{
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 3050 6GB Laptop GPU",
+  "torch": "2.14.1+cu132",
+  "checkpoint": "weights\\tmodel_04.pt",
+  "decoding": "greedy (không dùng KV cache), batch = 1, mô hình đã nạp sẵn",
+  "num_sentences": 200,
+  "all": {
+    "n": 200,
+    "mean_s": 0.154,
+    "median_s": 0.142,
+    "p95_s": 0.291,
+    "max_s": 0.436
+  },
+  "tokens_1_10": {
+    "n": 43,
+    "mean_s": 0.068,
+    "median_s": 0.063,
+    "p95_s": 0.108,
+    "max_s": 0.111
+  },
+  "tokens_11_30": {
+    "n": 125,
+    "mean_s": 0.154,
+    "median_s": 0.147,
+    "p95_s": 0.24,
+    "max_s": 0.307
+  },
+  "tokens_31_50": {
+    "n": 32,
+    "mean_s": 0.269,
+    "median_s": 0.264,
+    "p95_s": 0.358,
+    "max_s": 0.436
+  },
+  "share_under_3s": 1.0
+}

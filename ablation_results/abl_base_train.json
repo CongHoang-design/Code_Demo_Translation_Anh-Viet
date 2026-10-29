@@ -1,0 +1,8 @@
+{
+  "name": "abl_base",
+  "num_layers": 3,
+  "label_smoothing": 0.1,
+  "seed": 42,
+  "epochs": 5,
+  "wall_seconds_including_data_prep": 1166
+}

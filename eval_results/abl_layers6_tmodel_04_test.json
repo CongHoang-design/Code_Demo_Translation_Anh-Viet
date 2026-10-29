@@ -1,0 +1,39 @@
+{
+  "checkpoint": "weights_ablation\\abl_layers6\\tmodel_04.pt",
+  "split": "test",
+  "greedy_decoding": true,
+  "num_parameters": 25744822,
+  "num_sentences": 1269,
+  "num_sentences_fit_seq_len": 1206,
+  "seq_len": 64,
+  "decode_seconds": 24.6,
+  "ref_unk_rate": 0.0062,
+  "all_sentences": {
+    "BLEU": {
+      "score": 20.37,
+      "signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0"
+    },
+    "chrF": {
+      "score": 38.74,
+      "signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:0|space:no|version:2.6.0"
+    },
+    "TER": {
+      "score": 60.14,
+      "signature": "nrefs:1|case:lc|tok:tercom|norm:no|punct:yes|asian:no|version:2.6.0"
+    }
+  },
+  "fit_seq_len_only": {
+    "BLEU": {
+      "score": 21.17,
+      "signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0"
+    },
+    "chrF": {
+      "score": 39.4,
+      "signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:0|space:no|version:2.6.0"
+    },
+    "TER": {
+      "score": 59.22,
+      "signature": "nrefs:1|case:lc|tok:tercom|norm:no|punct:yes|asian:no|version:2.6.0"
+    }
+  }
+}

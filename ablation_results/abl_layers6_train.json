@@ -1,0 +1,8 @@
+{
+  "name": "abl_layers6",
+  "num_layers": 6,
+  "label_smoothing": 0.1,
+  "seed": 42,
+  "epochs": 5,
+  "wall_seconds_including_data_prep": 1693
+}

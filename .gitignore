@@ -1,0 +1,12 @@
+# Môi trường và IDE
+.venv/
+.idea/
+__pycache__/
+*.pyc
+
+# Checkpoint (mỗi file khoảng 240 MB, vượt giới hạn 100 MB của GitHub)
+weights/
+weights_ablation/
+
+# Nhật ký TensorBoard
+runs/

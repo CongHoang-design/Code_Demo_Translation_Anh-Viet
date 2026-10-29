@@ -1,0 +1,11 @@
+# PyTorch cần cài theo phần cứng: https://pytorch.org/get-started/locally/
+torch>=2.0
+datasets
+tokenizers
+sacrebleu>=2.4
+gradio>=4.0
+tensorboard
+tqdm
+numpy
+pandas
+pyarrow
